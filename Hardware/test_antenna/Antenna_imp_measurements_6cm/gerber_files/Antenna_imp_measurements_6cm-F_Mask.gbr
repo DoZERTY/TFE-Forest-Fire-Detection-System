@@ -1,0 +1,31 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
+%TF.CreationDate,2025-04-02T12:33:37+02:00*%
+%TF.ProjectId,Antenna_imp_measurements_6cm,416e7465-6e6e-4615-9f69-6d705f6d6561,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2025-04-02 12:33:37*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,4.191000X1.270000*%
+%ADD11R,4.800600X1.346200*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X52455001Y-70000000D03*
+D11*
+X52655046Y-72825001D03*
+X52655046Y-67175002D03*
+%TD*%
+D10*
+%TO.C,J2*%
+X107544999Y-70000000D03*
+D11*
+X107344954Y-67174999D03*
+X107344954Y-72824998D03*
+%TD*%
+M02*

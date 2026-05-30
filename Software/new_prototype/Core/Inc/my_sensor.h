@@ -1,0 +1,30 @@
+/*
+ * my_sensor.h
+ *
+ *  Created on: Apr 23, 2025
+ *      Author: Dorian
+ */
+
+#ifndef INC_MY_SENSOR_H_
+#define INC_MY_SENSOR_H_
+
+#include "stm32wlxx_hal.h"
+
+/* Configuration defines */
+#define FILTER		BME69X_FILTER_OFF
+#define ODR 		BME69X_ODR_NONE
+#define OS_HUM 		BME69X_OS_8X
+#define OS_PRES		BME69X_OS_NONE     // previously BME69X_OS_8X
+#define OS_TEMP		BME69X_OS_8X
+#define SENSE_GAS	1 // if 0, no heating and no sensing of the gas
+#define HEATR_TEMP	300 // See datasheet, typically between 200 and 400
+#define HEATR_DUR	150 // 
+
+/** Initialise the BME690 sensor, after that it is ready to be used **/
+void my_sensor_init(I2C_HandleTypeDef *hi2c, uint8_t perform_sefltest);
+
+/** Fetch new sensor data and returns a pointer to data structure **/
+struct bme69x_data *get_BME_data();
+
+
+#endif /* INC_MY_SENSOR_H_ */
