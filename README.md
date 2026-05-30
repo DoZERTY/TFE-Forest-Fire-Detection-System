@@ -27,3 +27,10 @@ The repository is devided into four main parts:
 This directory contains the full STM32 projects used to program the boards. Each folder includes all necessary files to build, flash, and debug the corresponding prototype using **STM32CubeIDE**.
 - **initial_prototype/**: Complete project and source code of the optimized software for the initial hardware prototype.
 - **new_prototype/**: Complete project and source code of the optimized software for the new hardware prototype.
+
+
+
+## Author
+Dorian Schrobiltgen is an Electrical Engineering student, specializing in Electronics and Power Systems (UCLouvain).
+
+E-mail : dorian.schrobilgen@gmail.com
